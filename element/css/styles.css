@@ -1,0 +1,349 @@
+/*colors*/
+/*
+#cad2c5
+#84a98c
+#52796f
+#354f52
+#2f3e46
+*/
+
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@400;700&display=swap');
+
+
+/*GLOBAL*/
+
+p, a {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #52796f;
+}
+
+i {
+    margin: 0 5px;
+    color: #000;
+}
+
+
+
+/*SECONDAY NAV*/
+#secondaryNav {
+    width: 100%;
+    background-color: #84A98C;
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    
+}
+
+#secondaryNav #social ul li {
+    list-style: none;
+    
+}
+
+#social ul {
+    display: flex;
+    
+}
+
+#social i {
+    font-size: 20px;
+}
+
+#navContact {
+    padding: 0 10px 0 10px;
+}
+
+/*MAIN NAV*/
+
+#mainNav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#mainNav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+    line-height: 120px
+}
+
+#mainNav ul li a {
+    style: none;
+    margin: 0 10px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #000;
+}
+
+#navLinkContainer {
+    flex-basis: 70%;
+    
+}
+
+#logoContainer {
+    flex-basis: 20%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logoContainer img{
+    width: 200px;
+    height: auto;  
+}
+
+.callToAction {
+    background-color: #52796f;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff !important;
+    text-decoration: none;
+}
+
+
+
+/*HERO*/
+#hero {
+    height: 500px;
+ 
+}
+
+
+
+
+/*VALUES SECTION */
+
+#values-hp {
+    display: flex;
+    width: 100%;
+    margin: 20px auto;
+}
+
+#values-hp-text {
+    flex-basis: 50%;
+    
+    padding: 50px
+}
+
+#values-hp-text h1 {
+    font-size: 2.5rem
+}
+
+#values-hp-text p {
+    padding-top: 10px;
+    line-height: 1.5em;
+}
+
+#values-hp-img {
+    flex-basis: 50%;
+    border: 1px solid blue;
+}
+
+/*SERVICES SECTION*/
+
+#services-hp {
+    background-color: #354f52;
+    width: 100%;
+    padding: 20px 0;
+}
+
+#services-hp h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 2.2rem;
+    margin-top: 30px
+   
+}
+
+
+
+#servicesContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    background-color:  #fff;
+    border-radius: 8px;
+    flex-basis: 23%;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    
+}
+
+.service img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    height: auto;
+}
+
+
+
+.service h2 {
+    margin: 10px;
+}
+
+.service p {
+    margin: 10px;
+    line-height: 1.5rem;
+}
+
+.service a {
+    margin: 10px;
+    color:  #84A98C;
+    
+}
+
+#servicesHeading {
+    color: #fff;
+/*    margin: 50px 0 10px 10px;*/
+    text-align: center;
+    margin: 80px 0 10px 0;
+}
+
+#servicesText {
+    color: #fff;
+/*    margin: 0 0 0 10px;*/
+    text-align: center;
+}
+
+#contactCTA {
+    display: inline-block;
+    
+}
+
+.centerDiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 30px auto;
+}
+
+/*Testimonial Section */
+
+#testimonial-hp {
+    width: 100%;
+    padding: 30px 0 0 0;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.testimonialContainer{
+    flex-basis: 40%;
+    padding-top: 60px
+   
+    
+}
+
+.testimonialContainer p {
+    line-height: 1.5em;
+    margin: 10px 0;
+    font-size: 1.6rem;
+    color: #777777;
+}
+
+.imgContainer {
+    background-image:url(/images/oxygen_tanks_no_background.png);
+   flex-basis: 40%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    
+   
+}
+
+/********CONTACT US PAGE ******/
+
+#location {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#address {
+    flex-basis: 30%;
+    padding: 40px 50px 40px 50px;
+    background-color: #354f52;
+    color: #fff;
+    line-height: 1.75rem;
+       
+}
+
+#address h2 {
+    color: #fff;
+}
+
+#address h2:not(:first-child){
+    padding-top: 10px;
+}
+
+#address i {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/*CONTACT FORM*/
+
+ .contact-form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    
+    .contact-form label,
+    .contact-form input,
+    .contact-form textarea {
+      display: block;
+      margin-bottom: 10px;
+    }
+    
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    .contact-form button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 10px 20px;
+      cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
+#footer {
+    background-color: #2f3e46;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    border-top: 1px solid grey;
+    
+}
+
+#footer p {
+    line-height: 50px;
+}
